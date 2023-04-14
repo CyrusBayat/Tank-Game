@@ -16,7 +16,7 @@ IntelliJ
 ## Steps to Import project into IDE: 
 On the IntelliJ click on the file, then click on the open button. 
 When the Open File or Project windows become open, go to the location of your file, 
-and import the “ csc413-tankgame-bayatMostafa4 ” package to the IDE. 
+and import the “tankgame” package to the IDE. 
 
 ## Steps to Build your Project: 
 After import the project, we need to choose the resources' folder as the Project Resource folder, and the src folder as the Project Source folder. 
