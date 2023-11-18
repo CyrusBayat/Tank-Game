@@ -29,18 +29,14 @@ public class Launcher {
     //Using to manage the sub-panels.
     private CardLayout cardLayout;
 
-    /**
-     * @author anthony-pc
-     */
+
     public Launcher() {
         this.frame = new JFrame("Tank War");
         this.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
     }
 
-    /**
-     * @author anthony-pc
-     */
+
     private void initializeUI() {
         this.mainP = new JPanel();
         this.startP = new StartMenu(this);
@@ -62,9 +58,7 @@ public class Launcher {
 //        this.frame.setLocationRelativeTo(null);
     }
 
-    /**
-     * @author anthony-pc
-     */
+
     public void setFrame(String type) {
         // hiding the frame
         this.frame.setVisible(false);
@@ -91,9 +85,7 @@ public class Launcher {
         this.frame.dispatchEvent(new WindowEvent(this.frame, WindowEvent.WINDOW_CLOSING));
     }
 
-    /**
-     * @author anthony-pc
-     */
+
     public static void main(String[] args) {
 //        JOptionPane.showMessageDialog(null, "are you ready to play?");
         Launcher play = new Launcher();
